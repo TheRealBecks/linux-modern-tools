@@ -62,6 +62,12 @@ sudo zypper install -y fish
 ```
 
 ### Configuration
+Change the default shell to `fish`:
+```
+chsh -s /usr/bin/fish
+```
+Also change the KDE settings from `bash` to `fish`.
+
 Add the command into `~/.config/fish/config.fish` at the end:
 ```
 fish_add_path ~/go/bin
